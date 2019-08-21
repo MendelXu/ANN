@@ -9,7 +9,7 @@ The source code is in preparing. We will release as soon as possible.
 ### citation
 If you find our paper useful in your research, please consider citing:
 
-	@inproceedings{li19,
+	@inproceedings{ann,
 	    author={Zhen Zhu, Mengde Xu, Song Bai, Tengteng Huang, Xiang Bai},
 	    title={Asymmetric Non-local Neural Networks for Semantic Segmentation},
 	    booktitle={International Conference on Computer Vision},   
