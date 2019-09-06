@@ -123,7 +123,7 @@ In this work, we present Asymmetric Non-local Neural Network to semantic segment
   --------------------------------
   ```  
 
-- Test
+- Test on test set
   Download trained [model](https://drive.google.com/open?id=1yNjItS3IREN8Dqn7qB5EK7xpzoPRM8_e) to `checkpoints/seg/cityscapes/fs_annn_cityscapes_segohem_latest.pth` and test on validation set with multiple scales.
   ```
   bash scripts/seg/cityscapes/run_fs_annn_cityscapes_seg_test.sh test ohem
