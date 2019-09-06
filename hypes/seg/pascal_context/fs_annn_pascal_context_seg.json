@@ -97,16 +97,16 @@
   },
   "network":{
     "backbone": "deepbase_resnet101_dilated8",
-    "model_name": "zhunet",
+    "model_name": "annn",
     "norm_type": "encsync_batchnorm",
     "stride": 8,
-    "checkpoints_name": "fs_zhunet_pascal_context_seg",
+    "checkpoints_name": "fs_annn_pascal_context_seg",
     "checkpoints_dir": "./checkpoints/seg/pascal_context"
   },
   "logging": {
     "logfile_level": "info",
     "stdout_level": "info",
-    "log_file": "./log/seg/pascal_context/fs_zhunet_pascal_context_seg.log",
+    "log_file": "./log/seg/pascal_context/fs_annn_pascal_context_seg.log",
     "log_format": "%(asctime)s %(levelname)-7s %(message)s",
     "rewrite": true
   },

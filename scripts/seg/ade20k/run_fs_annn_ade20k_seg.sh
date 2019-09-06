@@ -17,7 +17,7 @@ MODEL_NAME="annn"
 CHECKPOINTS_NAME="fs_${MODEL_NAME}_${DATASET}_seg"$2
 PRETRAINED_MODEL="./pretrained_models/3x3resnet101-imagenet.pth"
 
-HYPES_FILE="hypes/seg/${DATASET}/fs_zhunet_${DATASET}_seg.json"
+HYPES_FILE="hypes/seg/${DATASET}/fs_annn_${DATASET}_seg.json"
 MAX_ITERS=150000
 LOSS_TYPE="fs_auxohemce_loss"
 
