@@ -211,6 +211,9 @@ class FCNSegmentorTest(object):
         with torch.no_grad():
             total_logits = list()
             results = self.seg_net.forward(data_dict['img'])
+            # For single GPU, it returns a tuple instead of a list of tuple.
+            if not isinstance(results[0],(tuple,list)):
+                results = [results]
             for res in results:
                 total_logits.append(res[-1].squeeze(0).permute(1, 2, 0).cpu().numpy())
 
